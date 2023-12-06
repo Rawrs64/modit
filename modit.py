@@ -694,7 +694,7 @@ def update_charts(tab, machine, machine_throughput, timeStart, timeEnd, lowerEnd
     codesTwentytwoTwentythree = len(filtered_data[(filtered_data[1] < 82800) & (filtered_data[1] >= 79200) & (filtered_data[3] == "1 - Productive")])
     codesTwentythreeTwentyfour = len(filtered_data[(filtered_data[1] < 86400) & (filtered_data[1] >= 82800) & (filtered_data[3] == "1 - Productive")])
     
-    # Codes per hour filter for comparison machine; this is very similar to the above block however it does to with the comparison machine
+    # Codes per hour filter for comparison machine; this is very similar to the above block however it does this with the comparison machine
     compareSixSeven = len(filtered_data_throughput[(filtered_data_throughput[1] < 25200) & (filtered_data_throughput[1] >= 21600) & (filtered_data_throughput[3] == "1 - Productive")])
     compareSevenEight = len(filtered_data_throughput[(filtered_data_throughput[1] < 28800) & (filtered_data_throughput[1] >= 25200) & (filtered_data_throughput[3] == "1 - Productive")])
     compareEightNine = len(filtered_data_throughput[(filtered_data_throughput[1] < 32400) & (filtered_data_throughput[1] >= 28800) & (filtered_data_throughput[3] == "1 - Productive")])
