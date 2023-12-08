@@ -344,7 +344,7 @@ machines_throughput_names = ["Station 10A", "Station 20A", "Station 30A", "Stati
             "Station 60B", "Station 71", "Station 72", "Station 80", "Station 90", "Station 91", "Station 92", "Station 100", "Station 110", "Station 120"]
 
 # List of strings for the time start selection filter
-timeHours = ["6 AM" , "7 AM", "8 AM", "9 AM", "10 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6 PM", "7 PM", "8 PM", "9 PM", "10 PM", "11 PM", "12 AM"]
+timeHours = ["6 AM" , "7 AM", "8 AM", "9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6 PM", "7 PM", "8 PM", "9 PM", "10 PM", "11 PM", "12 AM"]
 
 # List of strings for dropping nominal data filter (any duration below the selected amount)
 dropLowerThan = ["0 Seconds", "5 Seconds", "10 Seconds", "15 Seconds", "20 Seconds", "25 Seconds", "30 Seconds", "35 Seconds", "40 Seconds", "45 Seconds", "50 Seconds", "55 Seconds", "60 Seconds"]
